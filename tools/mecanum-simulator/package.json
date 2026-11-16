@@ -1,0 +1,10 @@
+{
+  "name": "ftc-mecanum-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple FTC mecanum field simulator with Java movement controls.",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --bind 127.0.0.1",
+    "test": "node tests/simulator.cjs"
+  }
+}
